@@ -1,6 +1,10 @@
 package com.example.demo.vo;
 
-public class WordVo {
+import java.io.Serializable;
+
+public class WordVo implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
 	
 	private String eng;
 	private String kor;
